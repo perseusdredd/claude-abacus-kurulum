@@ -94,7 +94,7 @@ set "ANTHROPIC_CUSTOM_MODEL_OPTION=route-llm-code"
 set "ANTHROPIC_CUSTOM_MODEL_OPTION_NAME=RouteLLM (Code)"
 set "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1"
 set "CLAUDE_CONFIG_DIR=%USERPROFILE%\.claude-abacus"
-call claude %*
+call claude --allow-dangerously-skip-permissions %*
 '@
 [IO.File]::WriteAllText((Join-Path $Bin 'claude-abacus.cmd'), ($cmd -replace "`r?`n", "`r`n"), [Text.Encoding]::ASCII)
 Tamam "Komut yazildi: $Bin\claude-abacus.cmd"

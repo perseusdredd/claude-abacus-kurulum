@@ -10,6 +10,6 @@ Kullanıcı "bunu kur" derse:
 Kurallar:
 
 - Anahtarı hiçbir dosyaya, komut satırına ya da çıktıya yazma. Betik onu şifreli depoya taşır.
-- `--dangerously-skip-permissions` ekleme.
+- `--dangerously-skip-permissions` (modu baştan açar) ekleme. Başlatıcıdaki `--allow-dangerously-skip-permissions` bilerek var: bypass modunu yalnız Shift+Tab döngüsüne koyar, açmaz.
 - `kur.ps1` dosyası bilerek ASCII; Türkçe karakter ekleme (Windows PowerShell 5.1 BOM'suz UTF-8'i yanlış okur).
 - Normal `claude` komutuna ve `~/.claude` klasörüne dokunma. Her şey `~/.claude-abacus` ve `~/.config/abacus` altında kalır.

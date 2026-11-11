@@ -75,7 +75,7 @@ Kullanım Abacus kredinden düşer; ChatLLM aboneliğinde aylık 20.000 kredi ge
 
 ## Kullanmadan önce
 
-- **İzin istemlerini kapatma.** Claude Code'a bilgisayarına erişim veriyorsun. Bu betik `--dangerously-skip-permissions` eklemez.
+- **İzin istemleri açık başlar.** `claude-abacus`, `--allow-dangerously-skip-permissions` ile başlar: "bypass permissions" modu `Shift+Tab` döngüsüne girer ama oturum o modda başlamaz, sen geçersen açılır. Bu modda Claude Code hiçbir şey sormadan dosya siler ve komut çalıştırır; yalnız Claude modelleriyle ve önemli dosya olmayan klasörlerde kullan. Döngüde istemiyorsan başlatıcıdaki bayrağı sil. Betik `--dangerously-skip-permissions` (baştan açık) eklemez.
 - **Claude dışı modeller** (GPT, Gemini, Kimi vb.) Claude Code'un araç çağırma biçiminde bazen sorun çıkarabilir. Claude modelleri en güvenlisi. Claude Code, tanımadığı model adlarında bağlam penceresini 200K varsayar ve bunu bir uyarı olarak yazar.
 - Yazdığın her şey (promptlar, açtığın dosyalar) Abacus'a gider. Hassas projelerde kullanma.
 

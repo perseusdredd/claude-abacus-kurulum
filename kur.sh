@@ -84,7 +84,7 @@ export ANTHROPIC_CUSTOM_MODEL_OPTION="route-llm-code"
 export ANTHROPIC_CUSTOM_MODEL_OPTION_NAME="RouteLLM (Code)"
 export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
 export CLAUDE_CONFIG_DIR="$HOME/.claude-abacus"
-exec claude "$@"
+exec claude --allow-dangerously-skip-permissions "$@"
 EOF
 chmod 755 "$BIN/claude-abacus"
 tamam "Komut yazildi: $BIN/claude-abacus"
