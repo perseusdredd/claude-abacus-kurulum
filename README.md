@@ -15,7 +15,7 @@ Abacus'un RouteLLM ucu Anthropic formatını (`/v1/messages`) doğrudan konuşuy
 ### Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/KULLANICI/claude-abacus-kurulum.git
+git clone https://github.com/perseusdredd/claude-abacus-kurulum.git
 cd claude-abacus-kurulum
 copy .env.example .env
 notepad .env
@@ -27,7 +27,7 @@ powershell -ExecutionPolicy Bypass -File .\kur.ps1
 ### macOS ve Linux
 
 ```bash
-git clone https://github.com/KULLANICI/claude-abacus-kurulum.git
+git clone https://github.com/perseusdredd/claude-abacus-kurulum.git
 cd claude-abacus-kurulum
 cp .env.example .env
 ```
